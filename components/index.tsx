@@ -1,4 +1,6 @@
-import Hero from "./Hero";
+import HomeTop from "./Home-top";
 import Button from "./Button";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
-export { Hero, Button };
+export { HomeTop, Button, Navbar, Footer };

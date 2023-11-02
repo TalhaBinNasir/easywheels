@@ -4,7 +4,7 @@ import React from "react";
 import { Button } from ".";
 import Image from "next/image";
 
-export default function Hero() {
+export default function HomeTop() {
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
@@ -12,14 +12,24 @@ export default function Hero() {
           Your Go To Place for Buying and Selling your Car
         </h1>
         <p className="hero__subtitle">It has never been easier</p>
-        <Button
-          title="Find Cars"
-          containerStyles="bg-primary-blue text-white rounded-full mt-10"
-          handleClick={() => {
-            alert("testing");
-          }}
-          disabled={false}
-        />
+        <div className="flex">
+          <Button
+            title="Find Cars"
+            containerStyles="bg-primary-blue text-white rounded-full mt-10 mr-2"
+            handleClick={() => {
+              alert("testing");
+            }}
+            disabled={false}
+          />
+          <Button
+            title="Sell Cars"
+            containerStyles="bg-primary-blue text-white rounded-full mt-10"
+            handleClick={() => {
+              alert("testing");
+            }}
+            disabled={false}
+          />
+        </div>
       </div>
       <div className="hero__image-container">
         <div className="hero__image">

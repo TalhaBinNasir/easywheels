@@ -1,10 +1,9 @@
-import { Hero } from "@/components";
-import Image from "next/image";
+import { HomeTop } from "@/components";
 
 export default function Home() {
   return (
     <main className="overflow-hidden">
-      <Hero />
+      <HomeTop />
     </main>
   );
 }

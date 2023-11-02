@@ -6,11 +6,12 @@ export default function Button({
   containerStyles,
   handleClick,
   disabled,
+  type,
 }: ButtonProps) {
   return (
     <button
       disabled={disabled}
-      type={"button"}
+      type={type || "button"}
       className={`custom-btn ${containerStyles}`}
       onClick={handleClick}
     >
