@@ -1,9 +1,10 @@
-import { HomeTop } from "@/components";
+import { BuyCars, HomeTop } from "@/components";
 
 export default function Home() {
   return (
     <main className="overflow-hidden">
       <HomeTop />
+      <BuyCars />
     </main>
   );
 }
